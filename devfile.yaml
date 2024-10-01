@@ -1,6 +1,6 @@
 schemaVersion: 2.2.2
 metadata:
-  name: maap-pangeo-starter
+  name: maap-btk-starter
 attributes:
    .vscode/extensions.json: |
       {
