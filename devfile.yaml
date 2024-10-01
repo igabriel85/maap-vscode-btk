@@ -18,7 +18,7 @@ attributes:
        - id: ms-python/python
        - id: ms-toolsai/jupyter
 components:
-  - name: maappythonpangeo
+  - name: maappythonbtk
     container:
       image: quay.io/igabriel185/maap-python-btk:latest
       memoryLimit: 8Gi
@@ -32,7 +32,7 @@ commands:
   - id: runjupyter
     exec:
       label: "Run Jupyter Notebook"
-      component: maappythonpangeo
+      component: maappythonbtk
       workingDir: ${PROJECT_SOURCE}
       commandLine: "jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root"
       group:
