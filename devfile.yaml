@@ -32,7 +32,7 @@ components:
           secure: True
           exposure: public
           attributes:
-            urlRewriteSupported: true
+            discoverable: true
 
 
 
