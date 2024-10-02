@@ -31,6 +31,9 @@ components:
           targetPort: 8888
           secure: True
           exposure: public
+          attributes:
+            urlRewriteSupported: true
+
 
 
 commands:
