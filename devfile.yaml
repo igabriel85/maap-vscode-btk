@@ -28,8 +28,6 @@ components:
           value: $PROJECT_SOURCE/envs
       endpoints:
         - name: jupyter
-          attributes:
-            protocol: http
             targetPort: 8888
             secure: True
             urlRewriteSupported: True
