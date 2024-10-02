@@ -26,6 +26,13 @@ components:
       env:
         - name: CONDA_ENVS_PATH
           value: $PROJECT_SOURCE/envs
+      endpoints:
+        - name: jupyter
+          attributes:
+            protocol: http
+            targetPort: 8888
+            secure: True
+            urlRewriteSupported: True
 
 
 commands:
