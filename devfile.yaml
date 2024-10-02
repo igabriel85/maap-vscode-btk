@@ -30,7 +30,7 @@ components:
         - name: jupyter
           targetPort: 8888
           secure: True
-          exposure: none
+          exposure: public
 
 
 commands:
