@@ -29,10 +29,10 @@ components:
       endpoints:
         - name: jupyter
           targetPort: 8888
-          secure: True
+          secure: true
           exposure: public
           attributes:
-            urlRewriteSupported: true
+            urlRewriteSupported: false
 
 
 
