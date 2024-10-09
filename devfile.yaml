@@ -20,7 +20,7 @@ attributes:
 components:
   - name: maappythonbtk
     container:
-      image: quay.io/igabriel185/maap-python-btk:latest
+      image: harbor.ade.esa-maap.org/cache-quay.io/igabriel185/maap-python-btk:latest #quay.io/igabriel185/maap-python-btk:latest
       memoryLimit: 16Gi
       memoryRequest: 4Gi
       env:
