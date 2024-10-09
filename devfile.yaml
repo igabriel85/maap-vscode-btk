@@ -21,7 +21,7 @@ components:
   - name: maappythonbtk
     container:
       image: quay.io/igabriel185/maap-python-btk:latest
-      memoryLimit: 8Gi
+      memoryLimit: 16Gi
       memoryRequest: 4Gi
       env:
         - name: CONDA_ENVS_PATH
@@ -33,6 +33,7 @@ components:
           exposure: public
           attributes:
             urlRewriteSupported: true
+
 
 
 
