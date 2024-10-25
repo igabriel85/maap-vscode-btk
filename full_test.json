@@ -21,7 +21,7 @@
   },
   {
     "displayName": "VSCode BTK MAAP Python 3.9",
-    "description": "Jupyter lab IDE containing the BTK Processor",
+    "description": "VSCode IDE based including Jupyter lab containing the BTK Processor",
     "tags": "VSCode, Python, btk",
     "url": "https://github.com/igabriel85/maap-vscode-btk",
     "icon": {
